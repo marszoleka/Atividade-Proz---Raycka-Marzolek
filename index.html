@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles2.css">
+        
+        <title>Sidebar sub menus</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">KALY</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Ínicio</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Promoções</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Coleções</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Praia</a>
+                                <a href="#" class="collapse__sublink">Minimalista</a>
+                                
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Avaliações</span>
+                        </a>
+                       
+                        <a href="#" class="nav__link">
+                            <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Configurações</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Login</span>
+                </a>
+            </nav>
+        </div>
+
+           <!-- FRETE -->
+    <div class="frete">
+        <i class='bx bxs-truck truck'></i>
+        <h2> Frete Grátis</h2>
+    </div>
+
+    <main>
+        <section class="banner">
+            <ul id="adaptive" class="cs-hidden">
+                <li class="item-a">
+                    <img src="assets/img/Banner frete grátis simples rosa.png" alt="">
+                </li>
+              
+            </ul>
+        </section>
+
+        <section class="popular section bd-container" id="popular">
+            <div class="popular__content">
+                <div class="titles">
+                    <span class="section-subtitle">aproveite</span>
+                    <h1 class="section-title">Para os amantes do mar</h1>
+                </div>
+
+                <div class="popular__shoes">
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/anel de calda.jfif" alt="coleção praiana">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h4> Calda de sereia<span>Prata 925</span></h5>
+                                <p>R$ 50,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+
+                        <div class="discount"> 50%<i class='bx bx-down-arrow-alt'></i></div>
+                        <div class="popular__card__img">
+                            <img src="assets/img/anel e onda.jfif" alt="onda">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class=" nunber numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h4>Onda <span>Prata 925</span></h5>
+                                <p>R$ 59,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/aneis de ondinhas.jfif" alt="ondinhas">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h4>Ondinhas <span>Prata 925</span></h5>
+                                <p>R$ 60,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/combo 4 aneis praianos.jfif" alt="shoe feminino"size="10px">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h4>Combo de anéis praianos <span>Prata 925</span></h5>
+                                <p>R$ 167,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="more">
+                    <a href="#">ver mais</a>
+                    <i class='bx bxs-right-arrow-alt'></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="more__shoes section bd-container" id="category">
+            <div class="titles">
+                <span class="section-subtitle">separamos por</span>
+                <h1 class="section-title">Categorias</h1>
+            </div>
+
+            <div class="more__content">
+                <div class="card__more card__more__men">
+                    <img src="assets/img/dedo com aneis de praia.jfif" alt="img">
+                    <div class="card__more__content">
+                        <h2>Praianos</h2>
+                    </div>
+                </div>
+
+                <div class="card__more card__more__women">
+                    <img src="assets/img/dedo com anéis.jfif" alt="img">
+                    <div class="card__more__content">
+                        <h2>Minimalistas</h2>
+                    </div>
+                </div>
+
+        
+            </div>
+        </section>
+
+        <section class="section bd-container" id="launch">
+            <div class="titles">
+                <span class="section-subtitle">confira nossos</span>
+                <h1 class="section-title">Lançamentos</h1>
+            </div>
+            <div class="gallery">
+                <div class="gallery__list">
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/anel de coração 2 minimalista.jfif" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>Coração</h1>
+                                <span>Prata 925</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 50,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="gallery__list__right">
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/anel de lua.jfif" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>Lua</h1>
+                                <span>Prata 925</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 50,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number numberof">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/anel de s minimalista.jfif" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1> Inicial</h1>
+                                <span>Prata 925</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 60,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/anel do infinito.jfif" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>Infinito</h1>
+                                <span>Prata 925</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 79,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number numberoof">01</div>
+                                <div class="number ">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                    <article class="gallery__item">
+                        <div class="gallery__img">
+                            <img src="assets/img/combo tres aneis cravejados.jfif" alt="">
+                        </div>
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery__desc">
+                            <div class="gallery__content">
+                                <h1>Combo de cravejados</h1>
+                                <span>Prata 925</span>
+                            </div>
+                            <div class="gallery__price">
+                                <p>R$ 189,00</p>
+                            </div>
+                        </div>
+
+                        <div class="sale">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number ">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+                            <button class="btn">COMPRAR</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section optin">
+            <div class="optin__content">
+                <h1>Quer 10% de desconto?</h1>
+                <p>Informe seu e-mail abaixo e receba um cupom de 10% de desconto para sua primeira compra!</p>
+                <form action="">
+                    <input type="text" placeholder="Informe sem melhor e-mail">
+                    <button class="btn">QUERO MEU DESCONTO</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="popular section bd-container" id="collection">
+            <div class="titles">
+                <span class="section-subtitle">Confira nossos</span>
+                <h1 class="section-title">Queridinhos</h1>
+            </div>
+            <div class="popular__content">
+                <div class="popular__shoes">
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/combo tres anéis estrela lua e coração.jfif" alt="Jane austen">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number ">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Conjunto do céu<span>Prata 925</span></h3>
+                                <p>R$ 150,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="discount"> 50%<i class='bx bx-down-arrow-alt'></i></div>
+                        <div class="popular__card__img">
+                            <img src="assets/img/coração minimalista.jfif" alt="anel de coração">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoof">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Coração de chapa<span>Prata 925</span></h3>
+                                <p>R$ 50,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/aneis de ondinhas.jfif" alt="anéis de ondinhas">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number ">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Ondinhas <span>Prata 925</span></h3>
+                                <p>R$ 60,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/anel de calda.jfif" alt="calda de sereia">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Calda de sereia <span>Prata 925</span></h3>
+                                <p>R$ 50,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinhho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/anel e onda.jfif" alt="onda">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3> Onda<span> Prata 925</span></h3>
+                                <p>R$ 59,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/anel do infinito.jfif" alt="anel do infinito">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3> Infinito<span> Prata 925</span></h3>
+                                <p>R$ 79,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/anel de s minimalista.jfif" alt="inicial">
+                            <div class="block__lauch">lançamento</div>
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number ">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Inicial <span>Prata 925</span></h3>
+                                <p>R$ 60,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="popular__card">
+                        <div class="popular__card__img">
+                            <img src="assets/img/anel de coração 2 minimalista.jfif" alt="anl de coração">
+                        </div>
+
+                        <div class="share">
+                            <div class="card__block">
+                                <a href="#"><i class='bx bxs-heart'></i></a>
+                            </div>
+                            <div class="card__block">
+                                <a href="#"><i class='bx bx-share-alt'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="popular__card__content">
+                            <div class="size">
+                                <div class="number numberoff">01</div>
+                                <div class="number ">02</div>
+                                <div class="number">03</div>
+                                <div class="number">04</div>
+                                <div class="number">05</div>
+                            </div>
+
+                            <div class="card__desc">
+                                <h3>Coração<span> Prata 925</span></h3>
+                                <p>R$ 50,00</p>
+                            </div>
+
+                            <div class="card__cart">
+                                <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="more">
+                    <a href="#">coleção completa aqui</a>
+                    <i class='bx bxs-right-arrow-alt'></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="optin section">
+            <div class="optin__content">
+                <h2>Receba as novidade da <a href="#" class="logo">Kaly Acessórios</a><span>.</span></a></h2>
+                <p>Cadastre-se e receba nossas novidades!.</p>
+                <form action="">
+                    <input type="text" placeholder="Informe seu e-mail">
+                    <button class="btn">RECEBER NOVIDADES</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="menu__footer section bd-container">
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Popular</h2>
+                </a>Conjunto o Céu</a>
+                <a href="#">Coração de Chapa</a>
+                <a href="#">Infinito</a>
+                <a href="#">Coração</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Categoria</h2>
+                </a>
+                <a href="#">Anéis</a>
+                <a href="#">Praianos</a>
+               
+            </div>
+
+            <div class="menu__footer__link">
+                <a href="#">
+                    <h2>Lançamentos</h2>
+                </a>
+                <a href="#">anéis</a>
+                <a href="#">anéis</a>
+                <a href="#">anéis</a>
+                <a href="#">anéis</a>
+            </div>
+
+            <div class="menu__footer__link">
+                <h2>Pagamento Seguro</h2>
+                <div class="cards">
+                    <img src="assets/img/Cads/amex.png" alt="">
+                    <img src="assets/img/Cads/aura.png" alt="">
+                    <img src="assets/img/Cads/dinners.png" alt="">
+                    <img src="assets/img/Cads/discover.png" alt="">
+                    <img src="assets/img/Cads/elo.png" alt="">
+                    <img src="assets/img/Cads/hiper.png" alt="">
+                    <img src="assets/img/Cads/jcb.png" alt="">
+                    <img src="assets/img/Cads/mastercard.png" alt="">
+                    <img src="assets/img/Cads/visa.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content bd-container">
+            <h1><a href="#" class="logo">Kaly Acessórios<span>.</span></a></h1>
+            <p>É um Front End de um e-commerce</p>
+            <p>*Todas as imagens utilizadas nesse projeto tem seus diretios autorais, não podendo ser usado em um
+                projeto real.</p>
+        </div>
+        <div class="footer__social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+
+
+
+
+        <h1>Componentes</h1>
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
